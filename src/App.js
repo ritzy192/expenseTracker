@@ -3,8 +3,10 @@ import Expenses from "./Components/Expenses/Expenses";
 import NewExpense from "./Components/NewExpense/NewExpense";
 
 const dummyExpenses = [
-  { id: "1", title: "Grocery", date: new Date(2022, 4, 14), price: 123 },
+  { id: "1", title: "Grocery", date: new Date(2021, 4, 14), price: 123 },
   { id: "2", title: "Books", date: new Date(2022, 5, 15), price: 234 },
+  { id: "3", title: "Headphones", date: new Date(2022, 2, 15), price: 564 },
+  { id: "2", title: "Phone", date: new Date(2021, 8, 15), price: 700 },
 ];
 
 function App() {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ExpenseItem from './ExpenseItem';
-import './FilteredList.css';
+import './FilteredExpenses.css';
 
 const FilteredList = (props) => {
   if (props.items.length === 0) {
@@ -14,7 +14,7 @@ const FilteredList = (props) => {
         <ExpenseItem
           key={expense.id}
           title={expense.title}
-          amount={expense.amount}
+          price={expense.price}
           date={expense.date}
         />
       ))}
